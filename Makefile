@@ -1,5 +1,5 @@
 CC=gcc
-BIN_FLAGS=-o main `sdl2-config --cflags --libs`
+BIN_FLAGS=-o main `sdl2-config --cflags --libs` -lm
 OBJECT_FLAGS =-c
 
 CLEAN_OBJECT_FILES=find . -name "*.o" -type f -delete
